@@ -1,0 +1,9 @@
+node_modules
+.git
+.github
+.env
+.env.*
+coverage
+*.log
+README.md
+INSTRUCTOR_DEMO.md
