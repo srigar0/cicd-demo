@@ -10,7 +10,7 @@ describe("Express routes", () => {
       .expect("Content-Type", /json/)
       .expect(200);
 
-    assert.deepEqual(response.body, { message: "Hello from Render!" });
+    assert.deepEqual(response.body, { message: "Update from Render!" });
   });
 
   it("GET /health returns a healthy status", async () => {
