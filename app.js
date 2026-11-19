@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (_req, res) => {
-  res.json({ message: "Hello from Render!" });
+  res.json({ message: "Update from Render!" });
 });
 
 app.get("/health", (_req, res) => {
