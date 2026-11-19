@@ -17,7 +17,7 @@ npm test
 npm start
 ```
 
-**Important:** Run `npm install` once and commit the resulting **`package-lock.json`** to Git. This source archive deliberately does not contain a lockfile because the creation environment could not access the npm registry. CI and Docker builds use `npm ci` and therefore require that committed lockfile. Do not commit `node_modules/`.
+
 
 The server listens on the `PORT` environment variable if provided, or port 3000 otherwise. It binds to `0.0.0.0` to accept traffic forwarded by Docker or Render.
 
